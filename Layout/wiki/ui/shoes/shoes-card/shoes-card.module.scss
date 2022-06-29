@@ -1,0 +1,42 @@
+.card {
+  width: 100%;
+  background-color: var(--bg-color);
+}
+
+.header {
+  padding: 1rem;
+}
+
+.footer {
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.button {
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 0;
+  font-size: var(--heading-md, 1.5rem);
+  color: var(--text-muted, grey);
+}
+
+.img {
+  width: 100%;
+  height: 227px;
+  object-fit: cover;
+  object-position: center;
+}
+.text {
+  font-size: var(--font-sm, 1.5rem);
+  margin-bottom: 0;
+}
+.price {
+  font-size: 1.25rem;
+  color: var(--text-muted, grey);
+}
+ul {
+  margin: 0;
+}

@@ -1,0 +1,24 @@
+---
+description: 'Stars rating for static and dynamic ratings'
+labels: ['rating', 'stars']
+---
+
+import { Rating } from './rating';
+
+
+- `stars` props is used to pass in the amount of stars to render.
+- `setStars` prop is used to set the amount of stars to store in state.
+
+### Rating of 5 stars
+
+```js live
+<Rating stars={5} />
+```
+
+### Value is in state and can be set on click
+
+```js live
+<Rating stars={5} setStars={true} />
+```
+
+<FigmaEmbed src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FYOdxHWPVnxBcTAYw0zPyXf%2Fstore---components%3Fnode-id%3D1323%253A2554" />

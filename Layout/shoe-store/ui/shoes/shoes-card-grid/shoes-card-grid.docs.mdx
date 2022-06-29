@@ -1,0 +1,28 @@
+---
+description: 'A Shoes Card Grid component.'
+labels: ['card', 'grid']
+---
+
+import { ShoesCardGrid } from './shoes-card-grid';
+import { mockShoesHome } from '@learn-bit-react/shoe-store.entity.shoes';
+import { FigmaEmbed } from '@learn-bit-react/base-ui.figma.figma-embed';
+
+A basic grid that renders card components for the shoe product
+
+### Renders an array of shoes from mock JSON
+
+```js live
+<ShoesCardGrid list={mockShoesHome()} />
+```
+
+### Renders the No Products message
+
+If array of products comes back empty, renders the No Products message
+
+```js live
+<ShoesCardGrid list={[]} />
+```
+
+### Design
+
+<FigmaEmbed src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FYOdxHWPVnxBcTAYw0zPyXf%2Fstore%3Fnode-id%3D6%253A462" />
